@@ -1,0 +1,46 @@
+
+.menu{
+    width: 33.3%;
+}
+#baner{
+    width: 100%;
+}
+#baner img{
+    text-align: center;
+    height: 60px;
+}
+#zdjecie1,#zdjecie3{
+    display: none;
+}
+#zdjecie2{
+    width: 80%;
+    height: 300px;
+    
+}
+#zdjecie2 img{
+    
+}
+#przycisk1,#przycisk2{
+    width: 10%;
+    height: 300px;
+}
+.menu{
+    font-size: 20px;
+    margin-top: 0px;
+    height: 50px;
+}
+#main{
+    font-size: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 90%;
+}
+#footer{
+    font-size: 10px;
+}
+#break{
+    display: none;
+}
+#main2{
+    height: 50px;
+}

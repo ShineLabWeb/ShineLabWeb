@@ -1,0 +1,17 @@
+#photo1,#photo3{
+    height: 200px;
+}
+#photo2{
+    height: 220px;
+}
+#logotyp{
+    display: none;
+}
+#logo{
+    display: none;
+}
+#main{
+    padding-left: 5%;
+    width: 90%;
+    padding-right: 5%;
+}
