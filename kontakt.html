@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="styles_mobile3.css" media="(max-width: 365px)">
     <title>ShineLab</title>
     <script src="galeria.js"></script>
+    <script src="kopiowanie.js"></script>
 </head>
 <body>
     <div id="baner">
@@ -35,15 +36,15 @@
     
 
     
-    <div id="main">
+    <div id="mainKontakt">
         <br>
         <h1>Skontaktuj się z nami!</h1>
         <p>Kliknij by skopiować</p>
-        <h2>Numer telefonu: +48 530 429 793</h2>
-        <h2>Adres e-mail: shine.lab.ostrowski</h2>
-        <h2>Facebook: ShineLab</h2>
+        <h2 id="numer" value="+48530429793" onclick="kopiowanie('numer')">Numer telefonu: <a>+48 530 429 793</a></h2>
+        <h2 id="email" value="shine.lab.ostrowski@gmail.com" onclick="kopiowanie('email')">Adres e-mail: <a>shine.lab.ostrowski@gmail.com</a></h2>
+        <h2>Facebook: <a href="https://www.facebook.com/profile.php?id=61559012761255&locale=pl_PL" target="_blank">Shine Lab</a> </h2>
         <h2>Instagram: ShineLab</h2>
-        <h2>Administracja: BurnoutBB</h2>
+        <h2>Administracja: <a href="https://github.com/BurnoutBB" target="_blank">BurnoutBB</a></h2>
     </div>
     <div id="logo">
         <img src="logo.jpeg" id="logotyp" height="500px">

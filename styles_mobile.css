@@ -10,8 +10,8 @@
 #logo{
     display: none;
 }
-#main{
-    padding-left: 5%;
-    width: 90%;
-    padding-right: 5%;
+#main,#mainKontakt{
+    padding-left: 10%;
+    width: 80%;
+    padding-right: 10%;
 }
